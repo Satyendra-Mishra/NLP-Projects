@@ -14,6 +14,7 @@ list_of_files = [
     f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/constants/__init__.py",
+    f"src/{project_name}/engine.py",
     "config/config.yaml",
     "params.yaml",
     "requirements.txt",
@@ -36,6 +37,4 @@ for filepath in list_of_files:
         logging.info(f"Creating empty file {filepath}")
     else:
         logging.info(f"{file_name} already exists")
-
-
 
